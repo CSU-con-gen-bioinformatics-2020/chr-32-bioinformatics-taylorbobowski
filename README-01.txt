@@ -104,7 +104,7 @@ The commands to print the file sizes and MD5 hashes that you use must be these
 (executed from the top level of this repository):
 
 du -h mkdup/* > bam_file_sizes.txt
-shasum mkdup/* > bam_file_sha1s.txt
+sha1sum mkdup/* > bam_file_sha1s.txt
 
 
 
